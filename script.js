@@ -6,7 +6,7 @@ document.getElementById("revealButton").addEventListener("click", function () {
 
 document.getElementById("yesButton").addEventListener("click", function () {
     const response = document.getElementById("response");
-    response.innerHTML = "<h2>🎉 Yay! You just made me the happiest person alive! ❤️</h2>";
+    response.innerHTML = "<h2>🎉 Yay! Now,can i call u  mine? ❤️</h2>";
     response.classList.remove("hidden");
     document.getElementById("message").classList.add("hidden");
 });
