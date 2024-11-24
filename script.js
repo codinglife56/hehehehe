@@ -13,7 +13,7 @@ document.getElementById("yesButton").addEventListener("click", function () {
 
 document.getElementById("noButton").addEventListener("click", function () {
     const response = document.getElementById("response");
-    response.innerHTML = "<h2>💔 Oh no... I'll always cherish you, though. 🌹</h2>";
+    response.innerHTML = "<h2>Revisit ur choice plsss 🌹</h2>";
     response.classList.remove("hidden");
     document.getElementById("message").classList.add("hidden");
 });
